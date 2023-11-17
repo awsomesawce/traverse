@@ -1,3 +1,11 @@
+# gitignore for Traverse
+
+# begin personal
+
+/_ignore/
+
+# end personal
+
 # Created by https://www.toptal.com/developers/gitignore/api/deno
 # Edit at https://www.toptal.com/developers/gitignore?templates=deno
 

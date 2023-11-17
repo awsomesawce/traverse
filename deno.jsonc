@@ -1,6 +1,8 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch main.ts",
+    "main": "deno run ./main.ts",
+    "prFiles": "deno run --allow-read ./print_fileentries.ts"
   },
   "fmt": {
     "indentWidth": 2,
