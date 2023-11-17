@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "fmt": {
+    "indentWidth": 2,
+    "lineWidth": 100,
+    "semiColons": false
+  },
+  "imports": {
+    "$std/": "https://deno.land/std@0.206.0/",
+    "ldEsmsh": "https://esm.sh/lodash@4.17.21"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true
+  }
+}
